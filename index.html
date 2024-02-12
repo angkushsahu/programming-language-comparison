@@ -45,7 +45,12 @@
       <title>Programming Language Comparison</title>
    </head>
    <body>
-      <main id="root">
+      <noscript>
+         <main class="no-script">
+            <h1>Please enable javascript to see the results</h1>
+         </main>
+      </noscript>
+      <main class="root">
          <!-- Header -- start -->
          <header>
             <div class="header-wrapper center-layout">
@@ -69,6 +74,7 @@
          <!-- Header -- end -->
          <!-- Hero section -- start -->
          <section class="hero center-layout">
+            <img src="/android-chrome-192x192.png" alt="Hero Image" class="hero-image" />
             <h1 class="title">Programming Language Comparison</h1>
             <h2 class="subtitle">
                Programming Language Comparison is a straightforward website to explore the most popular programming languages,
@@ -76,6 +82,74 @@
             </h2>
          </section>
          <!-- Hero section -- end -->
+         <!-- Tables section -- start -->
+         <section class="tables-section center-layout">
+            <div class="data">
+               <!-- Energy Usage Table -- start -->
+               <table>
+                  <caption>
+                     Energy Usage
+                  </caption>
+                  <thead>
+                     <tr>
+                        <th>Ranking</th>
+                        <th>Language</th>
+                        <th>Unit</th>
+                     </tr>
+                  </thead>
+                  <tbody id="energy-table-body"></tbody>
+               </table>
+               <!-- Energy Usage Table -- end -->
+               <!-- Processing Time Table -- start -->
+               <table>
+                  <caption>
+                     Processing Time
+                  </caption>
+                  <thead>
+                     <tr>
+                        <th>Ranking</th>
+                        <th>Language</th>
+                        <th>Unit</th>
+                     </tr>
+                  </thead>
+                  <tbody id="time-table-body"></tbody>
+               </table>
+               <!-- Processing Time Table -- end -->
+               <!-- Memory Consumption Table -- start -->
+               <table>
+                  <caption>
+                     Memory Consumption
+                  </caption>
+                  <thead>
+                     <tr>
+                        <th>Ranking</th>
+                        <th>Language</th>
+                        <th>Unit</th>
+                     </tr>
+                  </thead>
+                  <tbody id="memory-table-body"></tbody>
+               </table>
+               <!-- Memory Consumption Table -- end -->
+            </div>
+            <div class="result">
+               <!-- Overall Performance Table -- start -->
+               <table>
+                  <caption>
+                     Overall Performance
+                  </caption>
+                  <thead>
+                     <tr>
+                        <th>Ranking</th>
+                        <th>Language</th>
+                        <th>Unit</th>
+                     </tr>
+                  </thead>
+                  <tbody id="performance-table-body"></tbody>
+               </table>
+               <!-- Overall Performance Table -- end -->
+            </div>
+         </section>
+         <!-- Tables section -- end -->
       </main>
       <script type="module" src="/src/main.ts"></script>
    </body>

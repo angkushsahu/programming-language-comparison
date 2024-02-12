@@ -23,6 +23,7 @@
    --background: #020817;
    --foreground: #fcf8fa;
    --muted: #94a3b8;
+   --table-border: #454545;
 
    color-scheme: dark light;
    color: var(--foreground);
@@ -60,6 +61,10 @@ h2 {
    a:hover {
       color: #747bff;
    }
+}
+
+.root {
+   padding-bottom: 4rem;
 }
 
 .center-layout {
@@ -101,11 +106,19 @@ header .github {
 }
 
 .hero {
-   padding-bottom: 3rem;
+   padding-block: 3rem;
+}
+
+.hero .hero-image {
+   margin-inline: auto;
+   display: block;
+   width: 11rem;
+   height: 11rem;
 }
 
 .hero .title {
    text-align: center;
+   margin-block: 2rem;
 }
 
 .hero .subtitle {
@@ -115,12 +128,58 @@ header .github {
    margin-inline: auto;
 }
 
+.tables-section table {
+   border-collapse: separate;
+   border: 1px solid var(--table-border);
+   --cell-padding: 0.5rem 1rem;
+}
+
+.tables-section table > caption {
+   padding: var(--cell-padding);
+   font-weight: 600;
+   border: 1px solid var(--table-border);
+   text-align: left;
+   font-size: 1.2rem;
+}
+
+.tables-section table th {
+   font-weight: 500;
+}
+
+.tables-section table th,
+.tables-section table td {
+   padding: var(--cell-padding);
+   border: 1px solid var(--table-border);
+}
+
+.data {
+   --table-width: 30rem;
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(var(--table-width), 1fr));
+   grid-gap: 4rem;
+}
+
+.data > * {
+   flex: 1 1 var(--table-width);
+}
+
+.result {
+   margin-top: 4rem;
+}
+
+.result > table {
+   width: 100%;
+}
+
 @media screen and (max-width: 43.75em) {
    h1 {
       font-size: 2.4rem;
    }
    h2 {
       font-size: 1.1rem;
+   }
+   .hero .hero-image {
+      display: none;
    }
    .hero .title,
    .hero .subtitle {
@@ -133,6 +192,27 @@ header .github {
       display: none;
    }
    .center-layout {
-      padding: 0 1rem;
+      padding-inline: 1rem;
+   }
+   .data {
+      grid-template-columns: 1fr;
+   }
+}
+
+@media (scripting: none) {
+   .root {
+      display: none;
+   }
+
+   .no-script {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 90vh;
+      padding: 1.5rem;
+   }
+   .no-script h1 {
+      text-align: center;
+      line-height: 1.5;
    }
 }
