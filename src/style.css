@@ -1,0 +1,138 @@
+:root {
+   font-family:
+      system-ui,
+      -apple-system,
+      BlinkMacSystemFont,
+      "Segoe UI",
+      Roboto,
+      Oxygen,
+      Ubuntu,
+      Cantarell,
+      "Open Sans",
+      "Helvetica Neue",
+      sans-serif;
+   line-height: 1.5;
+   font-weight: 400;
+
+   font-synthesis: none;
+   text-rendering: optimizeLegibility;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+
+   --primary: #3b82f6;
+   --background: #020817;
+   --foreground: #fcf8fa;
+   --muted: #94a3b8;
+
+   color-scheme: dark light;
+   color: var(--foreground);
+   background-color: var(--background);
+}
+
+a {
+   color: #646cff;
+   text-decoration: inherit;
+}
+a:hover {
+   color: #535bf2;
+}
+
+body {
+   margin: 0;
+}
+
+h1 {
+   font-size: 3.2rem;
+   line-height: 1.1;
+}
+
+h2 {
+   font-size: 1.25rem;
+   font-weight: 400;
+   line-height: 1.5;
+}
+
+@media (prefers-color-scheme: light) {
+   :root {
+      color: #213547;
+      background-color: #ffffff;
+   }
+   a:hover {
+      color: #747bff;
+   }
+}
+
+.center-layout {
+   max-width: 1280px;
+   margin: 0 auto;
+   padding: 0 2rem;
+}
+
+header {
+   box-shadow: #4847473d 0px 3px 8px;
+}
+
+header > .header-wrapper {
+   padding-block: 1.2rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+header .logo-wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 1rem;
+}
+
+header .logo-text {
+   color: var(--foreground);
+}
+
+header .logo {
+   width: 2rem;
+   height: 2rem;
+}
+
+header .github {
+   width: 1.7rem;
+   height: 1.7rem;
+}
+
+.hero {
+   padding-bottom: 3rem;
+}
+
+.hero .title {
+   text-align: center;
+}
+
+.hero .subtitle {
+   text-align: center;
+   color: var(--muted);
+   max-width: 70ch;
+   margin-inline: auto;
+}
+
+@media screen and (max-width: 43.75em) {
+   h1 {
+      font-size: 2.4rem;
+   }
+   h2 {
+      font-size: 1.1rem;
+   }
+   .hero .title,
+   .hero .subtitle {
+      text-align: left;
+   }
+}
+
+@media screen and (max-width: 37.6em) {
+   header .logo-text {
+      display: none;
+   }
+   .center-layout {
+      padding: 0 1rem;
+   }
+}

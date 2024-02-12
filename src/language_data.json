@@ -1,0 +1,164 @@
+[
+   {
+      "Language": "C",
+      "Energy": 1,
+      "Time": 1,
+      "Memory": 1.17
+   },
+   {
+      "Language": "Rust",
+      "Energy": 1.03,
+      "Time": 1.04,
+      "Memory": 1.54
+   },
+   {
+      "Language": "C++",
+      "Energy": 1.34,
+      "Time": 1.56,
+      "Memory": 1.34
+   },
+   {
+      "Language": "Ada",
+      "Energy": 1.7,
+      "Time": 1.85,
+      "Memory": 1.47
+   },
+   {
+      "Language": "Java",
+      "Energy": 1.98,
+      "Time": 1.89,
+      "Memory": 6.01
+   },
+   {
+      "Language": "Pascal",
+      "Energy": 2.14,
+      "Time": 3.02,
+      "Memory": 1
+   },
+   {
+      "Language": "Chapel",
+      "Energy": 2.18,
+      "Time": 2.14,
+      "Memory": 4
+   },
+   {
+      "Language": "Lisp",
+      "Energy": 2.27,
+      "Time": 3.4,
+      "Memory": 1.92
+   },
+   {
+      "Language": "Ocaml",
+      "Energy": 2.4,
+      "Time": 3.09,
+      "Memory": 2.82
+   },
+   {
+      "Language": "Fortran",
+      "Energy": 2.52,
+      "Time": 4.2,
+      "Memory": 1.24
+   },
+   {
+      "Language": "Swift",
+      "Energy": 2.79,
+      "Time": 4.2,
+      "Memory": 2.71
+   },
+   {
+      "Language": "Haskell",
+      "Energy": 3.1,
+      "Time": 3.55,
+      "Memory": 2.45
+   },
+   {
+      "Language": "C#",
+      "Energy": 3.14,
+      "Time": 3.14,
+      "Memory": 2.85
+   },
+   {
+      "Language": "Go",
+      "Energy": 3.23,
+      "Time": 2.83,
+      "Memory": 1.05
+   },
+   {
+      "Language": "Dart",
+      "Energy": 3.83,
+      "Time": 6.67,
+      "Memory": 8.64
+   },
+   {
+      "Language": "F#",
+      "Energy": 4.13,
+      "Time": 6.3,
+      "Memory": 4.25
+   },
+   {
+      "Language": "Javascript",
+      "Energy": 4.45,
+      "Time": 6.52,
+      "Memory": 4.59
+   },
+   {
+      "Language": "Racket",
+      "Energy": 7.91,
+      "Time": 11.27,
+      "Memory": 3.52
+   },
+   {
+      "Language": "Typescript",
+      "Energy": 21.5,
+      "Time": 46.2,
+      "Memory": 4.69
+   },
+   {
+      "Language": "Hack",
+      "Energy": 24.02,
+      "Time": 26.99,
+      "Memory": 3.34
+   },
+   {
+      "Language": "PHP",
+      "Energy": 29.3,
+      "Time": 27.64,
+      "Memory": 2.57
+   },
+   {
+      "Language": "Erlang",
+      "Energy": 42.23,
+      "Time": 36.71,
+      "Memory": 7.2
+   },
+   {
+      "Language": "Lua",
+      "Energy": 45.98,
+      "Time": 82.91,
+      "Memory": 6.72
+   },
+   {
+      "Language": "Jruby",
+      "Energy": 46.54,
+      "Time": 43.44,
+      "Memory": 19.84
+   },
+   {
+      "Language": "Ruby",
+      "Energy": 69.91,
+      "Time": 59.34,
+      "Memory": 3.97
+   },
+   {
+      "Language": "Python",
+      "Energy": 75.88,
+      "Time": 71.9,
+      "Memory": 2.8
+   },
+   {
+      "Language": "Perl",
+      "Energy": 79.58,
+      "Time": 65.79,
+      "Memory": 6.62
+   }
+]
